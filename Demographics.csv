@@ -1,0 +1,32 @@
+gender,job 
+# only one security officer
+M,security officer
+M,dir economist
+F,software engineer
+M,software engineer
+F,software engineer
+F,accountant
+F,data scientist
+F,cybersecurity analyst
+M,platform engineer
+F,janitor 
+# only one janitor 
+F,recruiter
+M,data scientist
+M,intenr
+F,janitor
+F,analyst
+F,analyst
+M,analyst
+M,intern
+M,dir comensation
+M,security engineer
+F,sales project manager 
+M,data scientist
+F,sales project manager 
+F,security engineer 
+M,sales project manager 
+M,accountant
+F,security enginneer
+F,intern
+F,intern
