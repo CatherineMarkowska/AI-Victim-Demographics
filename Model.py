@@ -3,8 +3,8 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 
-#imports the datadata = pd.read_csv("AI-Victim-Demographics-1/demographics.csv")
-data = data[["gender", "job"]]
+imports the datadata = pd.read_csv("AI-Victim-Demographics-1/demographics.csv")
+data = data[["gender", "job"]]         
 
 #standardize the data
 x_std = StandardScaler().fit_transform(data)
@@ -34,4 +34,13 @@ plt.scatter(centroids[:, 0], centroids[:, 1], marker='X', s=100,
 #shows the graph
 plt.xlabel("gender")
 plt.ylabel("job")
+plt.show()
+
+
+plt.show()
+plt.show()
+plt.show()
+plt.show()
+plt.show()
+plt.show()
 plt.show()
