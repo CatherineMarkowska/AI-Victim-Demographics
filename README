@@ -1,7 +1,7 @@
-This is an aggregate of the victims that Gone Phishing has convinced to fall for their phishing scam.
+This is an aggregate of the victims that Gone Phishing has convinced to fall for their phishing scam. For best results, run the following code using Anaconda in VSCode. 
 The following Python code was written by Cat Markowska, 2024, et al. 
 
 Model: Unsupervised learning (We are using an unsupervised learning algorithm. There might not be a linear correlation between variables. We are looking for a label/category, but we do not know what labels we need.) We want to sort victims based on their demographics, forming clusters. 
-Demographics: Gender, Job, if we can get more demograhpics we will add them 
+Demographics: Gender, Job, if we can get more demographics we will add them 
 
 # (WHAT IS IN THE CURRENT DEMOGRAPHICS IS NOT OUR ACTUAL DATA, MERELY RANDOM SAMPLE DATA TO TEST THE MODEL)
