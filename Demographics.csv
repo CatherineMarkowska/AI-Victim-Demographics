@@ -1,5 +1,4 @@
-gender,job 
-# only one security officer
+gender,job
 M,security officer
 M,dir economist
 F,software engineer
@@ -10,7 +9,6 @@ F,data scientist
 F,cybersecurity analyst
 M,platform engineer
 F,janitor 
-# only one janitor 
 F,recruiter
 M,data scientist
 M,intenr

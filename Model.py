@@ -5,9 +5,10 @@ from sklearn.cluster import KMeans
 
 
 #imports the data
-data = pd.read_csv("AI-Victim-Demographics/demographics.csv")
-data = data[["gender", "job"]]         
+data = pd.read_csv("demographics.csv")
 
+data = data[["gender", "job"]]         
+print(data)
 #standardize the data
 x_std = StandardScaler().fit_transform(data)
 
