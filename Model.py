@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 #imports the data
 data = pd.read_csv("demographics.csv")
 
-data = data[["gender", "job"]]         
+data = data[["years spent at company","age"]]         
 print(data)
 #standardize the data
 x_std = StandardScaler().fit_transform(data)
@@ -35,6 +35,6 @@ plt.scatter(centroids[:, 0], centroids[:, 1], marker='X', s=100,
             c='r', label='centroid')
             
 #shows the graph
-plt.xlabel("gender")
-plt.ylabel("job")
+plt.xlabel("years spent at company")
+plt.ylabel("age")
 plt.show()
