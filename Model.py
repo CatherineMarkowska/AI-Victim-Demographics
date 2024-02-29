@@ -23,12 +23,16 @@ centroids = km.cluster_centers_
 labels = km.labels_
 
 #sets the size of the graph
-plt.figure(figsize=(5,4))
+plt.figure(figsize=(4,5))
+
 
 #use a for loop to plot the data points in each cluster
 for i in range(k):
     cluster = x_std[labels == i]
     plt.scatter(cluster[:,0], cluster[:,1])
+    print(cluster)
+
+y_new_inverse = x_std.inverse_transform(x_std)
 
 #plot the centroids
 plt.scatter(centroids[:, 0], centroids[:, 1], marker='X', s=100,
